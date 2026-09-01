@@ -1415,6 +1415,26 @@ textarea {
   font-weight: 700;
 }
 
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.footer-contact a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.footer-contact a:hover {
+  opacity: 0.8;
+}
+
 .whatsapp-float {
   display: inline-flex;
   align-items: center;
